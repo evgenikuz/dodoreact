@@ -1,0 +1,37 @@
+.primary {
+  padding: 9px 20px;
+  color: #fff;
+  text-align: center;
+  font-family: "Nunito", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 1000px;
+  background: #f96900;
+  border: none;
+  transition: 0.5s;
+}
+.primary:hover{
+  background: #ED5D08;  
+}
+.light {
+  padding: 7px 15px;
+  color: #5c6370;
+  font-size: 14px;
+  background-color: #f3f3f7;
+}
+.light:hover {
+color: #000;  
+background-color: #f3f3f7;
+}
+.secondary {
+  color: #d15700;
+  background-color: #FFF0E6;
+}
+.secondary:hover {
+color: #D55406;
+background-color: #FFD0B2;
+}
+.big {
+    width: max-content;
+    padding: 13px 48px;
+}
