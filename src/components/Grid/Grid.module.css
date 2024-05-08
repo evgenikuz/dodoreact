@@ -1,0 +1,12 @@
+.grid {
+    max-width: 1312px;
+    padding: 0 16px;
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+    grid-template-rows: repeat(2, minmax(320px,1fr));
+    grid-column-gap: 20px;
+    grid-row-gap:60px;
+
+}
