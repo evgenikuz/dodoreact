@@ -7,8 +7,7 @@ export const Grid = () => {
     return(
         
          <div className={s.grid}>
-           { dodo.map(el=><Card name={el.name} description={el.description} price={el.price} src={el.img} alt={el.name}/>)};
-           
+           { dodo.map(el=><Card name={el.name} description={el.description} price={el.price} src={el.img} alt={el.name}/>)};         
          
          </div>
          
