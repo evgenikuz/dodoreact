@@ -11,10 +11,12 @@ export const Header = () => {
                 <div className={s.logo__icon}>
                     <img src={logo}/>
                 </div>
-                <div className={s.logo__name}>
-                    <img src={brandName}/>
+                <div className={s.logo__right}>
+                    <div className={s.logo__name}>
+                        <img src={brandName}/>
+                    </div>
+                    <p className={s.logo__brandN1}>Сеть пиццерий №1 в России</p>
                 </div>
-                <p className={s.logo__brandN1}>Сеть пиццерий №1 в России</p>
             </div>
             <div className={s.hotline}>
                 <p className={s.hotline__number}>8 800 302-00-60</p>
