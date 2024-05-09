@@ -1,4 +1,5 @@
-export const dodo = [
+export const data = [
+
   {
     id: "1",
     name: "Пицца из половинок",
