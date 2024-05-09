@@ -1,11 +1,12 @@
 export const data = [
+
   {
     id: "1",
     name: "Пицца из половинок",
     description: "Соберите свою пиццу 35 см с двумя разными вкусами",
     price: "от 600 ₽",
     button: "Собрать",
-    // img: img1,
+    img: "https://media.dodostatic.net/image/r:292x292/11EE7D61BB2BD856BD5DFD71FB7D4210.avif",
   },
   {
     id: "2",
@@ -13,7 +14,7 @@ export const data = [
     description: "Пикантная пепперони, моцарелла, томатный соус",
     price: "от 625 ₽",
     button: "Выбрать",
-    // img: img2,
+    img: "https://www.gorodtaraz.kz/upload/000/u1/c/9/pepperoni-serdce-photo-normal.jpg",
   },
   {
     id: "3",
@@ -21,7 +22,7 @@ export const data = [
     description: "Ананасы, брусника, сгущенное молоко",
     price: "от 625 ₽",
     button: "Выбрать",
-    // img: img3,
+    img: "https://www.gorodtaraz.kz/upload/000/u1/a/2/pirog-serdce-photo-normal.jpg",
   },
   {
     id: "4",
@@ -30,7 +31,7 @@ export const data = [
       "Ветчина, сыр чеддер, сладкий перец, моцарелла, томатный соус, чеснок, итальянские травы",
     price: "от 625 ₽",
     button: "Выбрать",
-    // img: img4,
+    img: "https://cdn-irec.r-99.com/sites/default/files/imagecache/300o/product-images/1000419/oibtYM1hkUX7Ez4Di9olw.jpg",
   },
   {
     id: "5",
@@ -38,7 +39,7 @@ export const data = [
     description: "Цыпленок, сыр блю чиз, томаты, моцарелла, соус альфредо",
     price: "от 445 ₽",
     button: "Выбрать",
-    // img: img5,
+    img: "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQ6FxoUYjs7VxRVJUvz6oyjOpdjO-WPNwZrguqdcHy2sSGFRYGo",
   },
   {
     id: "6",
@@ -46,7 +47,7 @@ export const data = [
     description: "Лосось, томаты черри, соус песто, моцарелла, соус альфредо",
     price: "от 495 ₽",
     button: "Выбрать",
-    // img: img6,
+    img: "https://www.gorodtaraz.kz/upload/000/u1/e/7/nezhnyi-losos-photo-normal.jpg",
   },
   {
     id: "7",
@@ -55,7 +56,7 @@ export const data = [
       "Увеличенная порция моцареллы, сыры чеддер и пармезан, соус альфредо",
     price: "от 245 ₽",
     button: "Выбрать",
-    // img: img7,
+    img: "https://media.dodostatic.net/image/r:292x292/11EE7D610D2925109AB2E1C92CC5383C.avif",
   },
   {
     id: "8",
@@ -64,6 +65,6 @@ export const data = [
       "Пикантная пепперони, увеличенная порция моцареллы, томаты, томатный соус",
     price: "от 245 ₽",
     button: "Выбрать",
-    // img: img8,
+    img: "https://media.dodostatic.net/image/r:292x292/11EE7D612FC7B7FCA5BE822752BEE1E5.avif",
   },
 ];
