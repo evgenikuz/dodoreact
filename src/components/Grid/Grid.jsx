@@ -8,8 +8,7 @@ export const Grid = () => {
         
          <div className={s.grid}>
            { data.map(el=><Card name={el.name} description={el.description} price={el.price} src={el.img} alt={el.name}/>)};         
-         
-         </div>
+ </div>
          
         )
 }
