@@ -1,7 +1,12 @@
 import s from './GridTitle.module.css'
+import {Container} from '../Container/Container'
 
 export const GridTitle = () => {
     return( 
-    <div><h2>Pizza</h2></div>
+    <>
+    <Container>
+        <h2 className={s.GridTitle}>Pizza</h2>
+    </Container>
+    </>
     )
 }
