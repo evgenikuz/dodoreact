@@ -1,0 +1,9 @@
+.mobileHeader {
+
+}
+
+@media (min-width: 801px) {
+    .mobileHeader {
+        display: none;
+    }
+}
