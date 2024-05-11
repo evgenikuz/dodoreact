@@ -2,15 +2,16 @@ import "./App.css";
 import { Header } from "./components/Header/Header";
 import { Main } from "./components/Main/Main";
 import { Footer } from "./components/Footer/Footer";
-import NewProducts from "./components/NewProducts/NewProducts";
+import { DesktopMenu } from "./components/DesktopMenu/DesktopMenu";
 
 function App() {
   return (
     <>
       <Header />
-      <Main category="Пицца"/>
+      <DesktopMenu/>
+      {/* в main добавлять все компоненты */}
+      <Main/> 
       <Footer />
-      {/* <NewProducts /> */}
     </>
   );
 }

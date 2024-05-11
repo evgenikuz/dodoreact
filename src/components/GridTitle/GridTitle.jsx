@@ -1,4 +1,5 @@
 import s from './GridTitle.module.css'
+import {Container} from '../Container/Container'
 
 export const GridTitle = ({title}) => {
     return( 
