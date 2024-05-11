@@ -1,8 +1,7 @@
-import { Container } from '../Container/Container'
 import s from './MobileHeader.module.css'
 
 export const MobileHeader = () => {
-    return <Container>
+    return (
         <header className={s.mobileHeader}>
             <nav className={s.mobileMenu}>
                 <ul className={s.mobileMenu__list}>
@@ -15,5 +14,5 @@ export const MobileHeader = () => {
                 </ul>
             </nav>
         </header>
-    </Container>
+    )
 }
