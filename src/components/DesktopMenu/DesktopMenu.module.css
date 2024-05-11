@@ -46,3 +46,9 @@
     background: white;
     color: #F96900;
 }
+
+@media (max-width: 800px) {
+    .header__bottom {
+        display: none;
+    }
+}

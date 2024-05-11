@@ -1,5 +1,35 @@
 .mobileHeader {
-
+    position: sticky;
+    top: 0;
+    background-color: rgba(255,255,255,0.95);
+    z-index: 3;
+    padding: 10px 16px;
+}
+.mobileMenu__list {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+    gap: 10px;
+    max-width: 668px;
+    overflow: scroll;
+}
+.mobileMenu__item {
+    text-decoration: none;
+    color: black;
+    transition: 0.3s;
+    padding: 6px 15px;
+    border-radius: 100px;
+    background: #F3F3F7;
+    color: #464C55;
+    white-space: nowrap;
+}
+.mobileMenu__item:hover,
+.active {
+    border-radius: 100px;
+    background: #FFF0E6;
+    color: #D15700;
 }
 
 @media (min-width: 801px) {
