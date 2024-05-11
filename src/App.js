@@ -8,9 +8,9 @@ function App() {
   return (
     <>
       <Header />
-      <Main/>
+      <Main category="Пицца"/>
       <Footer />
-      <NewProducts />
+      {/* <NewProducts /> */}
     </>
   );
 }

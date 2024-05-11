@@ -1,1 +1,10 @@
-.GridTitle {}
+
+.gridTitle {    
+    margin-top: 60px;
+    color: #000;
+    font-family: Nunito, sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}

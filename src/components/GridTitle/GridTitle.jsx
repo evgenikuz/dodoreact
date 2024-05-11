@@ -1,7 +1,11 @@
 import s from './GridTitle.module.css'
 
-export const GridTitle = () => {
+export const GridTitle = ({title}) => {
     return( 
-    <div><h2>Pizza</h2></div>
+    <>
+    <Container>
+        <h2 className={s.gridTitle}>{title}</h2>
+    </Container>
+    </>
     )
 }
