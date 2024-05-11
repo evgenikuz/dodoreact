@@ -1,7 +1,7 @@
 import s from './Card.module.css'
 // import image1 from './image1.jpg'
 // import {image1} from 'https://media.dodostatic.net/image/r:292x292/11EE7D6110059795842D40396BCF1E73.jpg'
-import {Button} from '../../UI/Button/Button'
+import Button from '../../UI/Button/Button'
 
 
 
@@ -13,9 +13,8 @@ export const Card = ({name,description,price,src}) => {
         <p className={s.cardText}>{description}</p>
         <div className={s.wrappPrice}>
              
-            <p className={s.cardPrice}>{price}</p>           
-            <button className={s.cardBtn}>Выбрать</button>
-            {/* <Button/> */}
+            <p className={s.cardPrice}>{price}</p> 
+            <Button type="secondary" meaning="Собрать"/>
         </div>
     </div>)
 }
