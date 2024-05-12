@@ -6,9 +6,9 @@ import { GridTitle } from '../GridTitle/GridTitle'
 export const Grid = ({category}) => {
     return(
     <>
-         
+          <GridTitle/>
           <div className={s.grid}>
-            { data.map(el=>(el.category==category)?(<Card name={el.name} description={el.description} price={el.price} src={el.img} alt={el.name}/>):'')}         
+            { data.map(el=><Card name={el.name} description={el.description} price={el.price} src={el.img} alt={el.name}/>)}         
           </div>
     </>
         )

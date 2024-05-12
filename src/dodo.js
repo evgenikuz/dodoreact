@@ -7,7 +7,7 @@ export const data = [
     description: "Соберите свою пиццу 35 см с двумя разными вкусами",
     price: "от 600 ₽",
     button: "Собрать",
-    img: "https://media.dodostatic.net/image/r:292x292/11EE7D61BB2BD856BD5DFD71FB7D4210.avif",
+    img: "https://media.dodostatic.net/image/r:292x292/11EE87A71B8F4645AB2A039D2840CE43.avif",
   },
   {
     id: "2",

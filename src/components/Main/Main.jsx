@@ -12,9 +12,5 @@ export const Main = (category) => {
     <Category category="Закуски"/>
     <Category category="Десерты"/> 
     <Category category="Напитки"/>
-   
-    
-
-
 </div>
 }
