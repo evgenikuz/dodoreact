@@ -2,22 +2,22 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Nunito',sans-serif;
   font-weight: 400;
 }
 
 @font-face {
-  font-family: 'Nunito', sans-serif;
-  src: local('./fonts/Nunito/Nunito-Regular.ttf');
+  font-family: 'Nunito';
+  src: url('./fonts/Nunito/Nunito-Regular.ttf');
   font-weight: 400;
 }
 @font-face {
-  font-family: 'Nunito', sans-serif;
-  src: local('./fonts/Nunito/Nunito-SemiBold.ttf');
+  font-family: 'Nunito';
+  src: url('./fonts/Nunito/Nunito-SemiBold.ttf');
   font-weight: 600;
 }
 @font-face {
-  font-family: 'Nunito', sans-serif;
-  src: local('./fonts/Nunito/Nunito-Bold.ttf');
+  font-family: 'Nunito';
+  src: url('./fonts/Nunito/Nunito-Bold.ttf');
   font-weight: 700;
 }
