@@ -4,12 +4,12 @@ import {data} from '../../dodo'
 import { GridTitle } from '../GridTitle/GridTitle'
 
 export const Grid = ({category}) => {
-    return(
-    <>
-          <GridTitle/>
+    return(   
+    <>   
+         <GridTitle title={category}/>
           <div className={s.grid}>
-            { data.map(el=><Card name={el.name} description={el.description} price={el.price} src={el.img} alt={el.name}/>)}         
-          </div>
+            { data.map(el=>(el.category==category)?(<Card name={el.name} description={el.description} price={el.price} src={el.img} alt={el.name}/>):"")}         
+         </div>
     </>
         )
 }
