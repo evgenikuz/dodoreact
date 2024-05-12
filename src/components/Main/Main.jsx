@@ -3,14 +3,10 @@ import {Slider} from "../Slider/Slider"
 import { MobileHeader } from '../MobileHeader/MobileHeader'
 import { Category } from '../Category/Category'
 
-export const Main = (category) => {
+export const Main = () => {
     return <div>
     <Slider/>  
     <MobileHeader/> 
-    <Category category="Пицца"/>
-    <Category category="Комбо"/>
-    <Category category="Закуски"/>
-    <Category category="Десерты"/> 
-    <Category category="Напитки"/>
+    <Category categories={["Пицца","Комбо","Закуски","Десерты","Напитки"]}/>
 </div>
 }
