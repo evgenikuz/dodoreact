@@ -8,9 +8,6 @@ function NewProducts() {
       <Container>
         <SliderNewProducts />
         <div className={s.gridProducts}>
-          {/* {data.map((el) => (
-            <NewItem img={el.img} product={el.name} price={el.price} />
-          ))} */}
         </div>
       </Container>
     </section>
