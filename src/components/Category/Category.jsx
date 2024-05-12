@@ -1,13 +1,10 @@
 import s from './Category.module.css'
-import {GridTitle} from '../GridTitle/GridTitle'
 import {Grid} from '../Grid/Grid'
-
-export const Category = ({category}) => 
+export const Category = ({categories}) => 
     {
         return( 
-            <>
-                <GridTitle title={category}/>
-                <Grid category={category}/>
+            <>                
+                 {categories.map(el => <Grid category={el}/> )} 
             </>
         )
 }
