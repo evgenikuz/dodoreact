@@ -1,5 +1,5 @@
+import Button from '../../UI/Button/Button'
 import s from './DesktopMenu.module.css'
-import {Container} from '../Container/Container'
 
 export const DesktopMenu = () => {
     return (
@@ -14,7 +14,8 @@ export const DesktopMenu = () => {
                     <a className={s.desktopMenu__item} href="#other"><li>Другие товары</li></a>
                 </ul>
             </nav>
-            <button className={s.cart}>Корзина</button>
+            <Button meaning='Корзина'/>
+            {/* <button className={s.cart}>Корзина</button> */}
         </div>
     )
 }

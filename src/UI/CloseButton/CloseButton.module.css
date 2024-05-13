@@ -1,0 +1,14 @@
+.closeButton {
+    position: absolute;
+    right: -45px;
+    top: 20px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    transition: 0.3s;
+    height: 24px;
+    width: 24px;
+}
+.closeButton:hover {
+    transform: rotate(90deg);
+}

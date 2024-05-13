@@ -29,7 +29,7 @@
 .desktopMenu__item:hover {
     color: #F96900;
 }
-.cart {
+/* .cart {
     color: #FFF;
     text-align: center;
     font-size: 16px;
@@ -45,7 +45,7 @@
 .cart:hover {
     background: white;
     color: #F96900;
-}
+} */
 
 @media (max-width: 600px) {
     .header__bottom {
