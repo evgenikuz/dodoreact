@@ -1,0 +1,65 @@
+.pizzaModalWindow {
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 0px 6px 55px 0px rgba(0, 0, 0, 0.10);
+    width:100%;
+    z-index: 10;
+    max-width: 920px;
+    height: 610px;
+    position: relative;
+    display: flex;
+}
+.pizzaSide {
+    align-self: center;
+}
+.pizzaSide__background {
+    background: url('Ellipse 6.png') no-repeat center;
+    margin: 76px 38px;
+}
+.pizzaSide__pizzaPicture {
+    height: 372px;
+    margin: 48px 31px 38px 55px;
+}
+.pizzaInfo {
+    background: #FCFCFC;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.pizzaInfo__scroll {
+    overflow: scroll;
+    height: 512px;
+}
+.pizzaInfo__name, .additions__title {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 3px;
+}
+.pizzaInfo__description {
+    color: #73798C;
+    font-size: 14px;
+    margin: 0;
+}
+.pizzaInfo__ingredients {
+    color: #4D4D4D;
+    font-family: Arial;
+    font-size: 13px;
+    margin-bottom: 23px;
+}
+.pizzaInfo__size {
+    height: 32px;
+    margin-bottom: 10px;
+}
+.pizzaInfo__dough {
+    height: 32px;
+    margin-bottom: 17px;
+}
+.additions__cards {
+    margin-top: 7px;
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    gap: 10px;
+}
+.pizzaInfo__buttonContainer {
+    margin-top: 20px;
+}
